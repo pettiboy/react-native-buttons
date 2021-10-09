@@ -1,10 +1,11 @@
 import React, { FunctionComponent } from 'react';
 
-import { ActivityIndicator, StyleSheet, TextStyle, TouchableOpacity, TouchableOpacityProps, ViewStyle } from 'react-native';
+import { ActivityIndicator, StyleSheet, Text, TextStyle, TouchableOpacity, TouchableOpacityProps, ViewStyle } from 'react-native';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import { COLORS } from '../../../constants';
-import { reduceOpacity } from '../../../utils/reduceOpacity';
-import Text from '../Text/Text';
+import { COLORS } from '../utils/colors';
+import { reduceOpacity } from '../utils/reduceOpacity';
+// import Text from '../Text/Text';
+
 
 
 interface ButtonSolidProps extends TouchableOpacityProps {
